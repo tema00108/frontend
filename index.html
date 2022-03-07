@@ -1,79 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Text AI 3.0</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="./_normalize.css" rel="stylesheet">
-        <link href="./_zeroing.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700;800&display=swap" rel="stylesheet">
-        
-    </head>
-
-    <body>
-        <div class="background"></div>
-        <div class="container">
-            
-            <div class="headings">
-                <header>
-                    <h1>text.AI</h1>
-                    <h2>Intelligent App fot text processing</h2>
-                </header>
-            </div>
-            <main>
-                <div class="form-group">
-                    <form>   
-                        
-                            <div class="box">
-                                <div>
-                                    <button>Original</button>
-                                    <img src="brain.svg" alt="brain" class="img-brain">
-                                </div>    
-                                    <textarea class="original-text" placeholder="Original text"></textarea>
-                            </div>
-                        
-                    </form>
-                </div>
-                    <form>
-                        <div class="form-group">
-                            <div class="box">
-                                <div><button>Check</button></div>
-                                <textarea class="user-text" placeholder="Input text..."></textarea>
-                            </div>
-                        </div>
-                    </form>
-            </main>
-
-            <footer>
-                <div class="social">
-                    <div class="box">
-                        <div >
-                            <img src="incubator.png" alt="incubator" class="img-incubator">
-                        </div>
-                        <div class="name">
-                            <span>Nickname,year</span>
-                        </div>
-                        <div >
-                            <ul class="social-list">
-                                <li>
-                                    <a href="https://github.com/tema00108" title="git"><img src="git.png" alt="git" class="icones"></a>
-                                </li>
-                                <li>
-                                    <a href="https://vk.com/" title="vk"><img src="vk.png" alt="vk" class="icones"></a>
-                                </li>
-                                <li>
-                                    <a href="https://facebook.com/" title="facebook"><img src="facebook.png" alt="facebook" class="icones"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./_normalize.css" rel="stylesheet">
+    <link href="./_zeroing.css" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>Text AI 3.0</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="background"></div>
+    <div class="container">
+        <div class="headings">
+            <header>
+                <h1>text.AI</h1>
+                <h2>Intelligent App for text processing</h2>
+            </header>
         </div>
         
-        
-    </body>
+        <main>
+            <form>
+                <div class="btn-img">
+                    <button>Original</button>
+                    <div class="image-container">
+                        <div id="opacity"></div>
+                        <!-- <img class="brain-img" src="./main.jpg"> -->
+                    </div>
+                </div>
+                <textarea placeholder="Original text" class="orig-text"></textarea>
+            </form>
+            <form>
+                <div><button>Check</button></div>
+                <textarea placeholder="Input text..." class="user-text"></textarea>
+            </form>
+        </main>
+    
+        <footer>
+            <div class="logo">
+                    <a href="http://devincubator.by/" title="Dev Incubator"><img src="incubator-logo.svg" alt="incubator-logo"></a>
+                    <a href="http://devincubator.by/" title="Dev Incubator"><img src="incubator.svg"  class="incubator" alt="incubator"></a>
+            </div>
+
+            <span class="authors">Nickname, year</span>
+            
+            <ul>
+                <li>
+                    <a href="https://github.com/tema00108" title="github"><img src="git.svg" alt="git" class="icones"></a>
+                </li>
+                <li>
+                    <a href="https://vk.com/" title="vk"><img src="vk.svg" alt="vk" class="icones"></a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/" title="facebook"><img src="fb.svg" alt="facebook" class="icones"></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
 </html>
