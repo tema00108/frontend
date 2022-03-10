@@ -219,9 +219,9 @@ form .btn-img {
         display: none;
     }
 
-    #image {
+    /* #opacity {
         display: none;
-    }
+    } */
 
     form {
         display: block;
