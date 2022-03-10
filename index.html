@@ -24,7 +24,7 @@
         <main>
             <form>
                 <div class="btn-img">
-                    <button>Original</button>
+                    <button id="open" type="button">Original</button>
                     <div class="image-container">
                         <div id="opacity"></div>
                         <!-- <img class="brain-img" src="./main.jpg"> -->
@@ -33,7 +33,7 @@
                 <textarea placeholder="Original text" class="orig-text"></textarea>
             </form>
             <form>
-                <div><button>Check</button></div>
+                <div><button id="send" type="button">Check</button></div>
                 <textarea placeholder="Input text..." class="user-text"></textarea>
             </form>
         </main>
@@ -61,5 +61,6 @@
     </div>
     <script src="src/particles.js"></script>
     <script src="src/app.js"></script>
+    <script src="src/serverRequest.js"></script>
 </body>
 </html>
