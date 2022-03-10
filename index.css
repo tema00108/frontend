@@ -219,9 +219,9 @@ form .btn-img {
         display: none;
     }
 
-    /* .brain-img {
+    #image {
         display: none;
-    } */
+    }
 
     form {
         display: block;
