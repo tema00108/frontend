@@ -174,7 +174,7 @@ form .btn-img {
 #opacity {
     position: absolute;
     background-color: #100549;
-    background-image: url(src/main.jpg);
+    background-image: url(main.jpg);
     background-position: center center;
     background-size: cover;
     border-radius: 20px;
